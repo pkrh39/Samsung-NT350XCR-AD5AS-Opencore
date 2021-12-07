@@ -37,10 +37,9 @@
 ### Not Tested
 * Realtek Card Reader
 * Continuity Features (AirDrop, SideCar, HandOff.. etc)
+* USB Type-C
 ## Known Issues
-* USB Type-C Display Output only works after waking up from sleep
-
-If you find more, please write an [issue](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
+See [issues](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
 ## BIOS Settings
 * Secure Boot Control: Off
 * Fast BIOS Mode: Off

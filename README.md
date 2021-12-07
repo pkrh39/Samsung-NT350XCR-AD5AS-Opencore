@@ -40,6 +40,23 @@
 * USB Type-C
 ## Known Issues
 See [issues](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
+## Used ACPI SSDT Hot Patches
+|SSDT Name|ACPI Rename Needed|Comment|
+|----------|------------------|------|
+|SSDT-ALS0.aml|	X	|Dummy Ambienet Light Sensor Injection for Brightness Control|
+|SSDT-AWAC.aml|	X	|RTC Fix|
+|SSDT-EC-USBX.aml| X |Fake EC Injection, USB Powere Management|
+|SSDT-FNBL.aml|	O	|Fn Brightness Key Remapping|
+|SSDT-GOST.aml|	O |Darwin OS Check Fix - Enable Lidwake|
+|SSDT-GPRW.aml|	O	|GPRW Instant Wake Fix|
+|SSDT-H_EC.aml|	X	|Add _PRW method to H_EC device - Enable Waking by Lid and PWRB|
+|SSDT-HPET.aml|	O |IRQ Conflict Fix|
+|SSDT-OSYS.aml|	X	|Darwin OS Check Fix - Enable Lidwake and Trackpad|
+|SSDT-PLUG.aml|	X	|CPU Power Management|
+|SSDT-PNLF.aml|	X	|Backlight Fix|
+|SSDT-SBUS-MCHC.aml|	X	|SMBUS Fix|
+|SSDT-SPTP.aml|	X	|Fix Trackpad to work in GPIO Interrupt mode|
+
 ## BIOS Settings
 * Secure Boot Control: Off
 * Fast BIOS Mode: Off

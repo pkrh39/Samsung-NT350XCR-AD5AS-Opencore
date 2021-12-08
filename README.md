@@ -46,7 +46,7 @@ If you want to download macOS, download directly from Apple using a mac.
 See [issues](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
 ## Used ACPI SSDT Hot Patches
 |SSDT Name|ACPI Rename Needed|Comment|
-|----------|------------------|------|
+|----------|:------------------:|------|
 |SSDT-ALS0.aml|	X	|Dummy Ambienet Light Sensor Injection for Brightness Control|
 |SSDT-AWAC.aml|	X	|RTC Fix|
 |SSDT-EC-USBX.aml| X |Fake EC Injection, USB Powere Management|

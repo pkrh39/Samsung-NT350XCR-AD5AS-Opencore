@@ -1,4 +1,7 @@
 # Samsung NT350XCR-AD5AS Opencore
+## Disclaimer 
+Use it as personal / non-profital use. 
+If you want to download macOS, download directly from Apple using a mac.
 ## System Specification
 |Specifications|Details|
 |------|---|

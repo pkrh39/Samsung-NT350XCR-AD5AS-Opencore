@@ -35,6 +35,7 @@ If you want to download macOS, download directly from Apple using a mac.
 * Brightness Adjutment (With Fn+F2,F3)
 * RTL8168H Wired Lan
 * iServices (iMessage, Facetime)
+* Booting Windows
 ### Not Working
 * DRM
 ### Not Tested

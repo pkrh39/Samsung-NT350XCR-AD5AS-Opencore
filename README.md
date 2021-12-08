@@ -1,4 +1,7 @@
 # Samsung NT350XCR-AD5AS Opencore
+## Disclaimer 
+Use it as personal / non-profital use. 
+If you want to download macOS, download directly from Apple using a mac.
 ## System Specification
 |Specifications|Details|
 |------|---|
@@ -32,15 +35,32 @@
 * Brightness Adjutment (With Fn+F2,F3)
 * RTL8168H Wired Lan
 * iServices (iMessage, Facetime)
+* Booting Windows
 ### Not Working
 * DRM
 ### Not Tested
 * Realtek Card Reader
 * Continuity Features (AirDrop, SideCar, HandOff.. etc)
+* USB Type-C
 ## Known Issues
-* USB Type-C Display Output only works after waking up from sleep
+See [issues](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
+## Used ACPI SSDT Hot Patches
+|SSDT Name|ACPI Rename Needed|Comment|
+|----------|:------------------:|------|
+|SSDT-ALS0.aml|	X	|Dummy Ambienet Light Sensor Injection for Brightness Control|
+|SSDT-AWAC.aml|	X	|RTC Fix|
+|SSDT-EC-USBX.aml| X |Fake EC Injection, USB Powere Management|
+|SSDT-FNBL.aml|	O	|Fn Brightness Key Remapping|
+|SSDT-GOST.aml|	O |Darwin OS Check Fix - Enable Lidwake|
+|SSDT-GPRW.aml|	O	|GPRW Instant Wake Fix|
+|SSDT-H_EC.aml|	X	|Add _PRW method to H_EC device - Enable Waking by Lid and PWRB|
+|SSDT-HPET.aml|	O |IRQ Conflict Fix|
+|SSDT-OSYS.aml|	X	|Darwin OS Check Fix - Enable Lidwake and Trackpad|
+|SSDT-PLUG.aml|	X	|CPU Power Management|
+|SSDT-PNLF.aml|	X	|Backlight Fix|
+|SSDT-SBUS-MCHC.aml|	X	|SMBUS Fix|
+|SSDT-SPTP.aml|	X	|Fix Trackpad to work in GPIO Interrupt mode|
 
-If you find more, please write an [issue](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
 ## BIOS Settings
 * Secure Boot Control: Off
 * Fast BIOS Mode: Off

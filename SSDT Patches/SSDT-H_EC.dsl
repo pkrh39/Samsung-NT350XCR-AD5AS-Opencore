@@ -29,10 +29,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "H_EC", 0x00000000)
         {
             Method (_PRW, 0, NotSerialized)  // _PRW: Power Resources for Wake
             {
-                If (_OSI ("Darwin"))
-                {
-                    Return (GPRW (0x10, 0x04))
-                }
+                Return (GPRW (0x10, 0x04))
             }
         }
     }

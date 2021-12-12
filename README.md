@@ -52,7 +52,7 @@ See [issues](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
 |----------|:------------------:|------|
 |SSDT-ALS0.aml|	X	|Dummy Ambienet Light Sensor Injection for Brightness Control|
 |SSDT-AWAC.aml|	X	|RTC Fix|
-|SSDT-EC-USBX.aml| X |Fake EC Injection, USB Powere Management|
+|SSDT-EC-USBX.aml| X |Fake EC Injection, USB Power Management|
 |SSDT-FNBL.aml|	O	|Fn Brightness Key Remapping|
 |SSDT-GOST.aml|	O |Darwin OS Check Fix - Enable Lidwake|
 |SSDT-GPRW.aml|	O	|GPRW Instant Wake Fix|

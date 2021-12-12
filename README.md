@@ -1,7 +1,9 @@
 # Samsung NT350XCR-AD5AS Opencore
 English | [Korean at x86.co.kr](https://x86.co.kr/mymac/6519428)
+### OC Version
+0.7.6
 ## Disclaimer 
-Use it as personal / non-profital use. 
+Use it as personal / non-profit use. 
 If you want to download macOS, download directly from Apple using a mac.
 ## System Specification
 |Specifications|Details|

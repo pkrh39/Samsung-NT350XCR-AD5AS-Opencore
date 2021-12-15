@@ -11,7 +11,7 @@ If you want to download macOS, download directly from Apple using a mac.
 |CPU|Intel Core i5-10210U (Comet Lake U62) |
 |Graphics|Intel UHD Graphics 620|
 |Memory|DDR4 2666Mhz 8GBx1|
-|SSD1|Samsung PM991 OEM NVMe 256GB(MZVLQ256HAJD-000) - **Cannot install macOS**|
+|SSD1|Samsung PM991 OEM NVMe 256GB(MZVLQ256HAJD-000) - **Does Not Work Correctly with macOS**|
 |SSD2|Micron Crucial MX500 500GB|
 |Wireless|Intel® Wireless-AC 9462|
 |Ethernet|Realtek RTL8168H|

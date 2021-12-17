@@ -657,20 +657,14 @@
 				<data>mz4AAA==</data>
 				<key>enable-backlight-smoother</key>
 				<data>AQAAAA==</data>
-				<key>force-online</key>
-				<data>AQAAAA==</data>
 				<key>framebuffer-con1-alldata</key>
 				<data>AQEJAAAIAACHAQAA</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AADgAQ==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<data>AAsKDQ==</data>
 				<key>model</key>
@@ -1940,6 +1934,8 @@
 			<false/>
 			<key>ProvideConsoleGop</key>
 			<true/>
+			<key>ReconnectGraphicsOnConnect</key>
+			<false/>
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReplaceTabWithSpace</key>
@@ -1951,8 +1947,6 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
-			<false/>
-			<key>ReconnectGraphicsOnConnect</key>
 			<false/>
 			<key>UIScale</key>
 			<integer>0</integer>
@@ -2004,6 +1998,8 @@
 			<false/>
 			<key>EnableVectorAcceleration</key>
 			<true/>
+			<key>EnableVmx</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>ForceOcWriteFlash</key>
@@ -2023,8 +2019,6 @@
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
-			<false/>
-			<key>EnableVmx</key>
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>

@@ -68,5 +68,12 @@ See [issues](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
 * Secure Boot Control: Off
 * Fast BIOS Mode: Off
 * LAN PXE OPROM: Off
+
+## Disabling NVME
+Best way to solve kernel panic caused by pm991 ssd is replacing it with another one.
+But, you can still disable it via SSDT.
+
+Put [SSDT-NVME-DISABLE.aml](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/blob/main/SSDT%20Patches/SSDT-NVME-DISABLE.aml) in EFI->OC->ACPI
+and add it in config.plist->ACPI->Add.
 ## Before You Download..
 This EFI does not include SMBIOS values and ROM. Please fill it up before using.

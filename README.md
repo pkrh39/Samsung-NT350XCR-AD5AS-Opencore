@@ -1,7 +1,7 @@
 # Samsung NT350XCR-AD5AS Opencore
 English | [Korean at x86.co.kr](https://x86.co.kr/mymac/6519428)
 ### OC Version
-0.8.0
+0.8.1
 ## Disclaimer 
 Use it as personal / non-profit use. 
 If you want to download macOS, download directly from Apple using a mac.
@@ -31,7 +31,7 @@ If you want to download macOS, download directly from Apple using a mac.
 * Battery Status Readout
 * Intergrated Keyboard
 * TrackPad
-* USB 3.0
+* All USBs
 * HDMI Display Output
 * USB Type-C DP Alt mode Display Output
 * Sleep / Wake (Lid Sleep / Wake)
@@ -45,7 +45,6 @@ If you want to download macOS, download directly from Apple using a mac.
 ### Not Tested
 * Realtek Card Reader
 * Continuity Features (AirDrop, SideCar, HandOff.. etc)
-* USB Type-C
 ## Known Issues
 See [issues](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
 ## Used ACPI SSDT Hot Patches
@@ -59,6 +58,7 @@ See [issues](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
 |SSDT-GPRW.aml|	O	|GPRW Instant Wake Fix|
 |SSDT-H_EC.aml|	X	|Add _PRW method to H_EC device - Enable Waking by Lid and PWRB|
 |SSDT-HPET.aml|	O |IRQ Conflict Fix|
+|SSDT-NVME-DISABLE.aml| X |Disable PM991 SSD|
 |SSDT-OSYS.aml|	X	|Darwin OS Check Fix - Enable Lidwake and Trackpad|
 |SSDT-PLUG.aml|	X	|CPU Power Management|
 |SSDT-PNLF.aml|	X	|Backlight Fix|
@@ -74,7 +74,6 @@ See [issues](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
 Best way to solve kernel panic caused by pm991 ssd is replacing it with another one.
 But, you can still disable it via SSDT.
 
-Put [SSDT-NVME-DISABLE.aml](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/blob/main/SSDT%20Patches/SSDT-NVME-DISABLE.aml) in EFI->OC->ACPI
-and add it in config.plist->ACPI->Add.
+Enable SSDT-NVME-DISABLE.aml in config.plist->ACPI->Add.
 ## Before You Download..
 This EFI does not include SMBIOS values and ROM. Please fill it up before using.

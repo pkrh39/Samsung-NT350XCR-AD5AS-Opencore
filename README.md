@@ -2,17 +2,14 @@
 English | [Korean at x86.co.kr](https://x86.co.kr/mymac/6519428)
 ### OC Version
 0.8.1
-## Disclaimer 
-Use it as personal / non-profit use. 
-If you want to download macOS, download directly from Apple using a mac.
 ## System Specification
 |Specifications|Details|
 |------|---|
 |CPU|Intel Core i5-10210U (Comet Lake U62) |
 |Graphics|Intel UHD Graphics 620|
 |Memory|DDR4 2666Mhz 8GBx1|
-|SSD1|Samsung PM991 OEM NVMe 256GB(MZVLQ256HAJD-000) - **Does Not Work Correctly with macOS**|
-|SSD2|Micron Crucial MX500 500GB|
+|NVMe SSD|Samsung PM991 OEM NVMe 256GB(MZVLQ256HAJD-000) - **(Cause kernel panic on macOS)**|
+|SATA SSD|Micron Crucial MX500 500GB **(Does not come with laptop)**|
 |Wireless|Intel® Wireless-AC 9462|
 |Ethernet|Realtek RTL8168H|
 |Audio|Realtek ALC256|
@@ -39,6 +36,7 @@ If you want to download macOS, download directly from Apple using a mac.
 * RTL8168H Wired Lan
 * iServices (iMessage, Facetime)
 * Booting Windows
+* Booting Linux
 ### Not Working
 * DRM
 * Hibernation
@@ -70,10 +68,13 @@ See [issues](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/issues).
 * Fast BIOS Mode: Off
 * LAN PXE OPROM: Off
 
-## Disabling NVME
-Best way to solve kernel panic caused by pm991 ssd is replacing it with another one.
-But, you can still disable it via SSDT.
+## Replacing NVMe SSD
+Due to PM991(which comes with the device) causing kernel panic on macOS,
+I disabled it with SSDT-NVME-DISABLE.aml.
 
-Enable SSDT-NVME-DISABLE.aml in config.plist->ACPI->Add.
+If you want to replace the NVMe drive, avoid PM981,PM991,Micron 2200S, and SK Hynix PC711.
+
+After replacing the NVMe drive, **you should disable SSDT-NVME-DISABLE.aml in ACPI->Add.**
+
 ## Before You Download..
 This EFI does not include SMBIOS values and ROM. Please fill it up before using.

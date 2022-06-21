@@ -35,7 +35,7 @@ This EFI does not include SMBIOS values and ROM. Please fill it up before using.
 * USB Type-C DP Alt mode Display Output
 * Sleep / Wake (Lid Sleep / Wake)
 * Hibernation
-* Brightness Adjutment (With Fn+F2,F3)
+* Brightness Adjustment (With Fn+F2,F3)
 * RTL8111/8168 PCIE Ethernet
 * iServices (iMessage, Facetime)
 * Booting Windows

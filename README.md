@@ -2,6 +2,8 @@
 English | [Korean at x86.co.kr](https://x86.co.kr/mymac/6519428)
 ### OC Version
 0.8.1
+## Before You Download..
+This EFI does not include SMBIOS values and ROM. Please fill it up before using.
 ## System Specification
 |Specifications|Details|
 |------|---|
@@ -75,9 +77,6 @@ I disabled it with SSDT-NVME-DISABLE.aml.
 If you want to replace the NVMe drive, avoid PM981,PM991,Micron 2200S, and SK Hynix PC711.
 
 After replacing the NVMe drive, **you should disable SSDT-NVME-DISABLE.aml in `ACPI->Add`.**
-
-## Before You Download..
-This EFI does not include SMBIOS values and ROM. Please fill it up before using.
 
 ## Sleep Settings
 By default, device will go into hibernation when it reaches critical battery level or lower than 10%.

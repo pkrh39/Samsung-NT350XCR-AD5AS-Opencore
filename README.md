@@ -104,9 +104,9 @@ sudo pmset -a tcpkeepalive 0
 #### Settings for Battery
 ```
 sudo pmset -b standby 1
-sudo pmset -b standbydelayhigh 7200
-sudo pmset -b standbydelaylow 3600
-sudo pmset -b hibernatemode 25
+sudo pmset -b standbydelayhigh 3600
+sudo pmset -b standbydelaylow 1800
+sudo pmset -b hibernatemode 3
 sudo pmset -b highstandbythreshold 50
 ```
 #### Settings for AC

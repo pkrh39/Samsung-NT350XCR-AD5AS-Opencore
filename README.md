@@ -100,17 +100,13 @@ This is the power config I use.
 sudo pmset -a powernap 0
 sudo pmset -a proximitywake 0
 sudo pmset -a tcpkeepalive 0
-```
-#### Settings for Battery
-```
-sudo pmset -b standby 1
-sudo pmset -b standbydelayhigh 3600
-sudo pmset -b standbydelaylow 1800
-sudo pmset -b hibernatemode 3
-sudo pmset -b highstandbythreshold 50
+sudo pmset -a standby 1
+sudo pmset -a standbydelayhigh 5400
+sudo pmset -a standbydelaylow 1800
+sudo pmset -a hibernatemode 3
+sudo pmset -a highstandbythreshold 40
 ```
 #### Settings for AC
 ```
-sudo pmset -c hibernatemode 0
 sudo pmset -c womp 0
 ```

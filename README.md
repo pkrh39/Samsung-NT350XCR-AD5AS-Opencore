@@ -110,3 +110,7 @@ sudo pmset -a highstandbythreshold 40
 ```
 sudo pmset -c womp 0
 ```
+#### Settings for Battery
+```
+sudo pmset -b lowpowermode 1
+```

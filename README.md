@@ -103,8 +103,7 @@ sudo pmset -a tcpkeepalive 0
 sudo pmset -a standby 1
 sudo pmset -a standbydelayhigh 1800
 sudo pmset -a standbydelaylow 600
-sudo pmset -a hibernatemode 3
-sudo pmset -a lidwake 0
+sudo pmset -a hibernatemode 25
 ```
 #### Settings for AC
 ```

@@ -64,14 +64,6 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Add _PRW Method to LID0 Device for fixing AppleACPILid wake</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-LID0.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>GPRW Instant Wake Fix</string>
                     <key>Enabled</key>
                     <true/>

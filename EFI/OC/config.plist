@@ -8,11 +8,27 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string>Fake ALS0 Device Injection</string>
+                    <string>Attaches AC Adapter Device to AppleACPIACAdapter Service in IOReg</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-ADP1.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>Add fake Ambient Light Sensor to IOReg</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
                     <string>SSDT-ALS0.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>Add fake ARTC Device to IOReg</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-ARTC.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -45,6 +61,14 @@
                     <true/>
                     <key>Path</key>
                     <string>SSDT-GOST.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>Add _PRW Method to LID0 Device for fixing AppleACPILid wake</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-LID0.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -117,6 +141,14 @@
                     <true/>
                     <key>Path</key>
                     <string>SSDT-SPTP.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>Add fake Intel PCH SPI Controller to IOReg</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-XSPI.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -402,7 +434,7 @@
                 <key>RebaseRegions</key>
                 <false/>
                 <key>ResetHwSig</key>
-                <true/>
+                <false/>
                 <key>ResetLogoStatus</key>
                 <true/>
                 <key>SyncTableIds</key>
@@ -949,7 +981,7 @@
                     <key>Comment</key>
                     <string>V1.2.5</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/CPUFriend</string>
                     <key>MaxKernel</key>
@@ -967,7 +999,7 @@
                     <key>Comment</key>
                     <string>V1.0.1</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -1037,7 +1069,7 @@
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.1</string>
+                    <string>V2.6.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1672,7 +1704,6 @@
             <dict>
                 <key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
                 <array>
-                    <string>UIScale</string>
                     <string>DefaultBackgroundColor</string>
                 </array>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
@@ -1683,6 +1714,10 @@
                 <array>
                     <string>boot-args</string>
                     <string>csr-active-config</string>
+                </array>
+                <key>E09B9297-7928-4440-9AAB-D1F8536FBF0A</key>
+                <array>
+                    <string>hbfx-ahbm</string>
                 </array>
             </dict>
             <key>LegacyEnable</key>

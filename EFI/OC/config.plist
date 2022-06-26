@@ -677,8 +677,6 @@
                     <data>AQAAAA==</data>
                     <key>framebuffer-stolenmem</key>
                     <data>AADgAQ==</data>
-                    <key>framebuffer-unifiedmem</key>
-                    <data>AAAAgA==</data>
                     <key>hda-gfx</key>
                     <data>AAsKDQ==</data>
                     <key>model</key>

@@ -698,6 +698,8 @@
                     <data>CgvjAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
+                    <key>framebuffer-stolenmem</key>
+                    <data>AADgAQ==</data>
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
                     <key>model</key>

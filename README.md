@@ -1,15 +1,18 @@
-# Samsung NT350XCR-AD5AS Opencore
+# **Samsung NT350XCR-AD5AS Opencore**
 
 English | [Korean at x86.co.kr](https://x86.co.kr/mymac/6519428)
 
 ![OC Version](https://img.shields.io/badge/OC%200.8.2-2485d4?style=for-the-badge)   ![macOS Version](https://img.shields.io/badge/10.15.4~12.5-53387d?style=for-the-badge&logo=apple&logocolor=white)
 
-<center>
+<p align="center">
+<a href="">
+  <img src="/IMG/1.png" width="500">
+</p>
 
-![Image](/IMG/1.png)
-
-[![Wiki](https://img.shields.io/badge/-Installation%20guide%20&%20Wiki-red?style=for-the-badge&logo=LibreOffice&logoColor=white)](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/wiki)
-</center>
+<p align="center">
+<a href="https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore/wiki">
+  <img src="https://img.shields.io/badge/-Installation%20guide%20&%20Wiki-red?style=for-the-badge&logo=LibreOffice&logoColor=white" alt="Installation Guide & Wiki">
+</p>
 
 ## System Specification
 

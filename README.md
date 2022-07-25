@@ -5,7 +5,6 @@ English | [Korean at x86.co.kr](https://x86.co.kr/mymac/6519428)
 ![OC Version](https://img.shields.io/badge/OC%200.8.2-2485d4?style=for-the-badge)   ![macOS Version](https://img.shields.io/badge/10.15.4~12.5-53387d?style=for-the-badge&logo=apple&logocolor=white)
 
 <p align="center">
-<a href="">
   <img src="/IMG/1.png" width="500">
 </p>
 

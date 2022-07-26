@@ -1,7 +1,5 @@
 # **Samsung NT350XCR-AD5AS Opencore**
 
-English | [Korean at x86.co.kr](https://x86.co.kr/mymac/6519428)
-
 ![OC Version](https://img.shields.io/badge/OC-0.8.2-2485d4?style=for-the-badge&labelColor=231f2b)   ![macOS Version](https://img.shields.io/badge/10.15.4~12.5-53387d?style=for-the-badge&logo=apple&logocolor=white&labelColor=231f2b)
 
 <p align="center">

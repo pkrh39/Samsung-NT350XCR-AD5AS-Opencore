@@ -96,6 +96,14 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
+                    <string>Fix PM991 SSD</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>SSDT-NVME.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
                     <string>Darwin OS Check Fix(Windows 2017) for OSYS</string>
                     <key>Enabled</key>
                     <true/>
@@ -1025,6 +1033,24 @@
                     <string>21.99.99</string>
                     <key>MinKernel</key>
                     <string>21.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>NVMeFix.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/NVMeFix</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>

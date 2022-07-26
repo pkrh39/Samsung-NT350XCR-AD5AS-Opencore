@@ -9,6 +9,7 @@
 |[SSDT-GOST](/ACPI%20Patches/SSDT-GOST.dsl)| O |Darwin OS Check Fix - Enable Lidwake|
 |[SSDT-H_EC](/ACPI%20Patches/SSDT-H_EC.dsl)| X |Add _PRW method to H_EC device - Enable Waking by Lid and PWRB|
 |[SSDT-HPET](/ACPI%20Patches/SSDT-HPET.dsl)| O |IRQ Conflict Fix|
+|[SSDT-NVME](/ACPI%20Patches/SSDT-NVME.dsl)| X |Spoof class code of NVMe to prevent IONVMEFamily from loading - should be paried with HackrNVMEFamily.kext|
 |[SSDT-OEMA](/ACPI%20Patches/SSDT-OEMA.dsl)| X | Fix loading OEM SSDT CmlU_Rvp table|
 |[SSDT-OEMD](/ACPI%20Patches/SSDT-OEMD.dsl)| X | Fix loading OEM SSDT CmlU_Rvp table|
 |[SSDT-OSYS](/ACPI%20Patches/SSDT-OSYS.dsl)| X |Darwin OS Check Fix - Enable Lidwake and Trackpad|

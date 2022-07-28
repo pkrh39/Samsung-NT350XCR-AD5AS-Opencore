@@ -25,7 +25,7 @@
 |Wireless|Intel® Wireless-AC 9462|
 |Ethernet|Realtek RTL8111/8268|
 |Audio|Realtek ALC256|
-|BIOS|P00RFS|
+|BIOS|P00RFS, P01RFS|
 
 ## Status
 
